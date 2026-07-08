@@ -219,6 +219,142 @@ here a and b are operands, and + is an operators
     (,) comma operator
     (&) address operator
     (*) value at operator 
+-------------------------------
+int 2byte or 4byte
+  
+  float : 4byte
+
+  double : 8byte
+
+  long double : 10byte
+
+  char : 1 byte
+
+  char [size] : size byte
+
+  ----------------------------
+
+  control statement : 
+---------------------------
+   1) conditional statement: 
+        
+        i) if statement:
+           ------ if condition goes true it will execute true statement
+
+            syntax :
+             if(condition)
+             {
+                //true statement;
+             }
+----------------------------
+
+        ii) if else statement:
+          -----
+          
+----------------------------           
+        iii) elif statement:
+
+        when we want to check  multiple conditions at that time we have to 
+        use else ..if statement
+
+        syntax:
+          if(condition)
+          {
+            statement;
+          }
+          else if(condition)
+          {
+            statement;
+          }
+          else if(condition)
+          {
+            statement;
+          }
+          else{
+            statement;
+          }
+----------------------------
+        iv) nested statement:
+            
+            ---when if condition call inside the another if condition.
+
+            syntax: 
+
+           if(condition)
+           {
+            if(condition)
+            {
+                statement
+            }
+            else
+            {
+                statement
+            }
+            else
+            {
+                statement
+            }
+           }
+ ---------------------------------------           
+          //Getchar() ---#include<conio.h>
+          //string , char ----#include<string.h>
+          //gets(email,password) ---scanf replace 
+          //strcmp -- In string comperision of  variable
+          
+-----------------------------
+
+        v) switch statement:
+        when we want to perform multiple conditions
+
+        note: switch statement does not support float data type
+
+        syntax: 
+         switch(expression)
+         {
+            case value:
+            statement;
+            break;
+
+            case value:
+            statement;
+            break;
+
+            case value:
+            statement;
+            break;
+
+            default:
+            statement;
+         }
+--------------------------------------------
+   2) looping statement:
+        repetation statement
+        --when we want to display specific statement multiple 
+        times we can use loop statement
+
+        in c programing thre are 3 types of loop
+
+       i) for:- pre fix
+       
+       ---- Is a sequence controlled loop.
+
+       syntax:
+          for(counter1;counter2;counter3)
+          {
+            statement;
+          }
+
+          for(initlization;condition;updation)
+          {
+            statement;
+          }
+       ii)while:--not fix
+       iii) do... while
+
+   3) jumping statement:
+
+       i) goto
+
 
 
 
