@@ -349,6 +349,15 @@ int 2byte or 4byte
             statement;
           }
        ii)while:--not fix
+          while loop is an entry controlled loop
+           syntax:
+           initialization;
+           while(condition)
+           {
+            //block of code;
+            updation;
+           }
+
        iii) do... while
 
    3) jumping statement:
