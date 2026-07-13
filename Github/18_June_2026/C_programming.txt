@@ -361,8 +361,75 @@ int 2byte or 4byte
        iii) do... while
 
    3) jumping statement:
+        there are 3 types of jumping statement.
 
-       i) goto
+    i)break :
+        break the loop
+        syntax:
+
+            break;
+
+
+    ii)continue:
+        skip the current statement and loop will continue
+
+        syntax:
+          continue;
+
+    iii) goto:
+         goto is jumping statement which means jump to specific part of program.
+           syntax:
+
+              goto <label>;
+
+              label:
+                block of code
+ ============================================
+ function:
+
+   function is a block of code that code are used to again and again.
+
+   there are 3 steps of create function.
+
+   step 1:
+    function declaration:
+     syntax:
+       <datatype> funname();
+
+       step 2:
+         function defination:
+syntax:
+   <datatype> funname()
+   {
+    //block of code
+   }
+
+   step 3:
+      function calling: use
+   syntax:
+    funname();
+
+---------------------------------------------
+ types of function:
+
+ there are 2 types of function.
+
+  1) build-in()
+  2) userdefined()
+
+  1.build-in(): which is predefine by c programming.
+
+  2.userdefined(): which is define by user for own purpose.
+
+  categories of function:
+
+  there are mainly 4 categories of function
+
+1) function without return type and function without parameter.
+2) function with parameter and function without return type.
+3) function with parameter and function with return type.
+4) function without parameter and function with return type.
+
 
 
 
